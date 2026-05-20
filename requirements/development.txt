@@ -1,0 +1,23 @@
+-r base.txt
+
+# ============================================================================
+# Paquets de développement uniquement
+# ============================================================================
+
+# Debug et outils dev
+django-debug-toolbar==4.4.6
+django-extensions==3.2.3
+ipython==8.29.0
+
+# Tests
+pytest==8.3.3
+pytest-django==4.9.0
+pytest-cov==6.0.0
+factory-boy==3.3.1
+faker==33.1.0
+responses==0.25.3
+
+# Qualité de code
+black==24.10.0
+ruff==0.8.1
+isort==5.13.2

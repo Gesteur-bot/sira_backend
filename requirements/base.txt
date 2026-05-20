@@ -1,0 +1,51 @@
+# ============================================================================
+# Paquets communs à tous les environnements
+# Versions vérifiées en mai 2026
+# ============================================================================
+
+# --- Framework Django et REST ---
+Django==5.2.14
+djangorestframework==3.15.2
+
+# --- Base de données PostgreSQL (driver moderne) ---
+psycopg[binary]==3.2.3
+
+# --- Authentification JWT (sécurité API) ---
+djangorestframework-simplejwt==5.3.1
+
+# --- CORS (sécurité pour app mobile et frontend admin) ---
+django-cors-headers==4.6.0
+
+# --- Variables d'environnement (sécurité : pas de secrets en dur) ---
+django-environ==0.11.2
+
+# --- Validation des numéros de téléphone (format international BF) ---
+django-phonenumber-field[phonenumberslite]==8.0.0
+
+# --- Manipulation d'images (photos profil, documents) ---
+Pillow==11.0.0
+
+# --- Cache et tâches asynchrones ---
+redis==5.2.0
+celery==5.4.0
+django-celery-beat==2.8.1
+
+# --- WebSocket (transmission positions temps réel) ---
+channels==4.2.0
+channels-redis==4.2.1
+daphne==4.1.2
+
+# --- Stockage objet (S3-compatible pour photos et documents) ---
+django-storages[s3]==1.14.4
+
+# --- Filtrage et pagination DRF ---
+django-filter==24.3
+
+# --- Documentation API automatique ---
+drf-spectacular==0.27.2
+
+# --- Rate limiting (sécurité contre attaques par brute force) ---
+django-ratelimit==4.1.0
+
+# --- Requêtes HTTP (appels API Mobile Money / PayDunya) ---
+requests==2.32.3

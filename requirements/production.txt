@@ -1,0 +1,12 @@
+-r base.txt
+
+# ============================================================================
+# Paquets de production uniquement
+# ============================================================================
+
+# Serveur WSGI/ASGI
+gunicorn==23.0.0
+uvicorn[standard]==0.32.1
+
+# Monitoring et logs
+sentry-sdk[django]==2.19.0
