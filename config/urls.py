@@ -33,7 +33,7 @@ urlpatterns = [
     ),
 
     # API v1 — à brancher progressivement
-    # path("api/v1/auth/", include("apps.accounts.urls")),
+     path("api/v1/auth/", include("apps.accounts.urls")),
     # path("api/v1/drivers/", include("apps.drivers.urls")),
     # path("api/v1/rides/", include("apps.rides.urls")),
     # path("api/v1/payments/", include("apps.payments.urls")),
