@@ -36,7 +36,8 @@ urlpatterns = [
      path("api/v1/auth/", include("apps.accounts.urls")),
      path("api/v1/drivers/", include("apps.drivers.urls")),
      path("api/v1/pricing/", include("apps.pricing.urls")),
-    # path("api/v1/rides/", include("apps.rides.urls")),
+     path("api/v1/matching/", include("apps.matching.urls")),
+     path("api/v1/rides/", include("apps.rides.urls")),
     # path("api/v1/payments/", include("apps.payments.urls")),
 ]
 
